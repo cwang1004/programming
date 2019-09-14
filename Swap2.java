@@ -4,10 +4,13 @@ public class Swap2
 	{
 		int a = 1;
 		int b = 2;
-		int c = a;//store a into c. c=1
-		a = b;//assigning a into b. b=1
+		
+		int c = a;//storing a into c. c=1
+		
+		a = b;//overwriting a with b. a=2
+		b = c;//assigning b to c. b=1
+		
 		System.out.println(a);
-		b = c;//assigning b into c. b=1
 		System.out.println(b);
 	}
 }
