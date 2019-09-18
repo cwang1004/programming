@@ -12,7 +12,13 @@ public class EvenNumbers2
 			And as stated in the hw instruction, loop until a < 110. I think you misundertood.  :)
 			Also, use '++' instead of '+=1'. Only use '+=' for numbers that are not 1.
 		*/	
-		for(int a = 1; a < 57; a+=1)
+		/*
+			Um, you mean to loop 110 times, Not to loop UNTIL 110...
+			Right?
+
+			PLS: I'll pull every day. Don't need to send a message to my mum.
+			*/
+		for(int a = 0; a < 110; a++)
 		{
 			System.out.println(cookies);
 			cookies+=2;
