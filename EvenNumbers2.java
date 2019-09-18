@@ -22,7 +22,6 @@ public class EvenNumbers2
 			
 			P.S: Hope you get your phone back soon lol
 		*/
-		
 		for(int a = 0; a < 110; a++)
 		{
 			System.out.println(cookies);
