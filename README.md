@@ -8,4 +8,4 @@
 # Loopy loop homework instructions (9/14):
  - use for loop to loop 110 times.
  - in the loop, print out incrementing even numbers starting from 0.
- - ex. 0, 2, 4, 6, 8, 10, Cookies are awesome...
+ - ex. 0, 2, 4, 6, 8, 10, etc.
