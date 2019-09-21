@@ -22,7 +22,7 @@
  	- Where do parameters go?
 
 ## Second Part
- - Create a static method that anybody can use
+ - Create a static method that anybody can use, name it whatever you want
  - The return type of this method is float
  - This method has 3 int parameters, you can name them whatever you want
  - Return the value of the first parameter multiplied by the second parameter then divided by the third. 
