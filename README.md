@@ -28,3 +28,6 @@
  - Return the value of the first parameter multiplied by the second parameter then divided by the third. 
  - ('\*' and '/' symbols do multiplication and division respectively)
  - Call this method with any 3 integers of your choice and print out the result in your main program.
+
+Question:
+So "*" is multiplication and "/"is divide?
