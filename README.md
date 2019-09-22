@@ -29,11 +29,11 @@
  - ('\*' and '/' symbols do multiplication and division respectively)
  - Call this method with any 3 integers of your choice and print out the result in your main program.
  
-## Third Part
+### Third Part
  - Do a brief review of all the things we've learned (types, loops, prints, methods, +, -, *, /)
  - Experiment with different combinations of these things, mess around a little bit, make educated guesses.
  - You have learned enough about java to experiment on you own now. Time to let loose your curiosity.
 
-#### Question (From Susie):
-	So "*" is multiplication and "/"is divide?
+#### Question (From Susie)
+	So * is multiplication and / is divide?
 	Yes!
