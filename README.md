@@ -1,17 +1,17 @@
 # What is this?
  - Github repo for Susie and George's Java programming class.
 
-# PvsPLN homework instructions (9/7):
+## PvsPLN homework instructions (9/7):
  - mutiple prints vs mutiple printlns in your code.
  - go online and figure out how to make print do the same thing as println.
 
-# Loopy loop homework instructions (9/14):
+## Loopy loop homework instructions (9/14):
  - use for loop to loop 110 times.
  - in the loop, print out incrementing even numbers starting from 0.
  - ex. 0, 2, 4, 6, 8, 10, etc.
 
-# What a tough day! (9/21):
-## First Part
+## What a tough day! (9/21):
+### First Part
  - Create a new file named Funnnnction
  - write a block comment and explain the following
  	- What is public?
@@ -21,13 +21,19 @@
  	- What does void mean?
  	- Where do parameters go?
 
-## Second Part
+### Second Part
  - Create a static method that anybody can use, name it whatever you want
  - The return type of this method is float
  - This method has 3 int parameters, you can name them whatever you want
  - Return the value of the first parameter multiplied by the second parameter then divided by the third. 
  - ('\*' and '/' symbols do multiplication and division respectively)
  - Call this method with any 3 integers of your choice and print out the result in your main program.
+ 
+## Third Part
+ - Do a brief review of all the things we've learned (types, loops, prints, methods, +, -, *, /)
+ - Experiment with different combinations of these things, mess around a little bit, make educated guesses.
+ - You have learned enough about java to experiment on you own now. Time to let loose your curiosity.
 
-Question:
-So "*" is multiplication and "/"is divide?
+#### Question (From Susie):
+	So "*" is multiplication and "/"is divide?
+	Yes!
