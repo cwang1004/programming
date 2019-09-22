@@ -36,6 +36,6 @@
 
 ```
 Question (From Susie)
-So \* is multiplication and / is divide?
+So * is multiplication and / is divide?
 Yes!
 ```
