@@ -34,6 +34,8 @@
  - Experiment with different combinations of these things, mess around a little bit, make educated guesses.
  - You have learned enough about java to experiment on you own now. Time to let loose your curiosity.
 
-#### Question (From Susie)
-	So * is multiplication and / is divide?
-	Yes!
+```
+Question (From Susie)
+So \* is multiplication and / is divide?
+Yes!
+```
