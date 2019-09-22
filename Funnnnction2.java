@@ -1,7 +1,7 @@
 /*
 	First part
 
-	public means that it's something others can see and it's loacal
+	public means that it's something others can see and use
 	private means that it's for your-self,only you can see
 	static's oppisite is nothing
 	return types -- int,String
