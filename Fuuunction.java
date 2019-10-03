@@ -9,7 +9,7 @@ public class Fuuunction
 {
 	public static void main(String[] args)
 	{
-		System.out.println(susiesaurus(4.5,2));
+		System.out.println(susiesaurus(4,2,2));
 	}
 	public static float susiesaurus(int crabhamster, int crocotoilet, int mooooo)
 	{
