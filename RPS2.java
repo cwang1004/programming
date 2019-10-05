@@ -1,4 +1,4 @@
-public class RPS2
+spublic class RPS2
 {
 	public static void main(String[] args)
 	{
