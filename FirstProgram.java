@@ -12,5 +12,5 @@ public class FirstProgram
 		System.out.println("**      **  **          **         **          ***              **                     ");
 		System.out.println("**       ** **           **       **           ***              **                  ***"); 
 		System.out.println("**        ****            *********            ***              *************       ***");
-	}ss
+	}
 };
