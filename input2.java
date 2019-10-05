@@ -1,13 +1,31 @@
-spublic class RPS2
+import java.util.*;
+public class input2
 {
 	public static void main(String[] args)
 	{
-		printScissor();
-		printPaper();
-		printRock();
-		String George = "No pancakes"
-		int Susie = 99
-		float Pancake = 0.00
+		Scanner smile = new Scanner(System.in);
+		while(true)
+		{	
+			int option = 0;
+			while(option > 3 || option < 1)
+			{
+				System.out.println("Enter your option: Rock=1, Paper=2, or Sissors=3 or bigger");
+				option = smile.nextInt();
+			}
+
+			if(option == 1)
+			{
+				printRock();
+			}
+			else if(option == 2)
+			{
+				printPaper();
+			}
+			else
+			{
+				printScissor();
+			}
+		}
 	}
 
 	public static void printScissor()
@@ -50,3 +68,9 @@ spublic class RPS2
 		System.out.println("  *********");
 	}
 }
+/* 
+Data type
+Type object
+Scanner(type) input(Name of variable) = new scanner(system.in)
+
+*/
