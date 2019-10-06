@@ -39,3 +39,15 @@ Question (From Susie)
 So * is multiplication and / is divide?
 Yes!
 ```
+
+## Starting Our First Game! (10/05):
+### Time to Digest
+ - We went over a lot of materials in class, including Scanner, conditional statements, while loops, and so on. So it is important that you take time to go over these materials time and time again. Start out by going over the program we wrote together in class. When you think you understand everything, write the program from scratch on your own. The most you are allowed to copy is the printPaper, printRock, and printScissors methods.
+ - Pay attention to the 'nested while loops', think about what each while loop does? Why is our programming running forever? Why is input sanitization possible?
+
+### Answer the following questioins by block commenting in your program
+- Neil, if you don't know how to comment, create a 'answer.txt' file and push that
+- 1. Is Scanner a data type? Is it a primitive type or an object type?
+- 2. What's the difference between a primitive type and an object type?
+- 3. List 2-3 functions from the Scanner type.
+- 2. List out as many conditional statements as possible.
