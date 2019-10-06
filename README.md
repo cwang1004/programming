@@ -44,6 +44,10 @@ Yes!
 ### Time to Digest
  - We went over a lot of materials in class, including Scanner, conditional statements, while loops, and so on. So it is important that you take time to go over these materials time and time again. Start out by going over the program we wrote together in class. When you think you understand everything, write the program from scratch on your own. The most you are allowed to copy is the printPaper, printRock, and printScissors methods.
  - Pay attention to the 'nested while loops', think about what each while loop does? Why is our programming running forever? Why is input sanitization possible?
+*/
+ Question(From Susie)
+ You mean scrach? Make it on scrach? That orange cat? Or write the program again? Ummmmm,,, I don't have scrach... By the way...
+/*
 
 ### Answer the following questioins by block commenting in your program
 - Neil, if you don't know how to comment, create a 'answer.txt' file and push that
