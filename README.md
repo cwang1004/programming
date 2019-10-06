@@ -56,4 +56,4 @@ Yes!
 - 1. Is Scanner a data type? Is it a primitive type or an object type?
 - 2. What's the difference between a primitive type and an object type?
 - 3. List 2-3 functions from the Scanner type.
-- 2. List out as many conditional statements as possible.
+- 4. List out as many conditional statements as possible.
