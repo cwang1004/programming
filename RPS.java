@@ -3,34 +3,36 @@ public class RPS
 {
 	public static void main(String[] args)
 	{
-	//	String eat = "chomp";
-	//	int susie = 0;
-	//	float pie = 3.14;
 		Scanner input = new Scanner(System.in);
 
 		while(true)
 		{
-		int option = 0;
-		while (option > 3 || option < 1)
-		{
-			System.out.println("Enter your option: Type 1 for Rock, Type 2 for Paper or Type 3 for Scissor.");
-			option = input.nextInt();
-		}
+			int option = 0;
+			while (option > 3 || option < 1)
+			{
+				System.out.println("Enter your option: Type 1 for Rock, Type 2 for Paper or Type 3 for Scissor.");
+				option = input.nextInt();
+			}
 
-		if(option == 1)
-		{
-			printRock();
-		}
-		else if(option == 2)
-		{
-			printScissor();
-		}
-		else
-		{
-			printPaper();
+			if(option == 1)
+			{
+				printRock();
+			}
+			else if(option == 2)
+			{
+				printScissor();
+			}
+			else
+			{
+				printPaper();
+			}
+
+			if(option == 123)
+			{
+				printRock();
+			}
 		}
 	}
-}
 
 	public static void printRock()
 	{
