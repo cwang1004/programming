@@ -57,7 +57,3 @@ Yes!
 - 2. What's the difference between a primitive type and an object type?
 - 3. List 2-3 functions from the Scanner type.
 - 4. List out as many conditional statements as possible.
-
-Question(From Mike)
-aoifhaoihfiofdffdfdf
-
