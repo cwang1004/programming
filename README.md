@@ -51,9 +51,29 @@ Yes!
  Answer: From scratch means from nothing haha. So create a new program. Good question!
 ```
 
-### Answer the following questioins by block commenting in your program
+### Answer the Following Questioins By Block Commenting in Your Program
 - Neil, if you don't know how to comment, create a 'answer.txt' file and push that
 - 1. Is Scanner a data type? Is it a primitive type or an object type?
 - 2. What's the difference between a primitive type and an object type?
 - 3. List 2-3 functions from the Scanner type.
 - 4. List out as many conditional statements as possible.
+'gblb.b,'
+## Greetings! Construction Workers! (10/12):
+### Nothing Goes Under the Rug
+- Yup, most of you didn't do the previous homwork. So please go do it now. :)
+- Create a file named RPSCOPY.java, add your number at the end. For example, susie is RPSCOPY2.java, neil is RPSCOPY3.java, mike is RPSCOPY4.java.
+- Remember the class name needs to be the same as the file name! So figure your class names out.
+- Mike, please copy line by line from RPS.java. Type character by character, no copy pasting. Try to understand as much as possible. Some things are impossible for you understand now so that's fine.
+- George, you can skip this part.
+
+### Answer the Following Questioins By Block Commenting in Your Program
+- If you don't know how to block comment, go do some research online. It's very easy
+- i. What is a class?
+- ii. What do we mean when we write
+	```
+	Scanner newScanner = new Scanner(System.in); 
+	```
+	explain in terms of blueprints
+- iii. What roles do parameters play in all this?
+- iv. Come up with a blueprint and some possible parameters
+- v. create a new object from your blueprint, use java syntax.
