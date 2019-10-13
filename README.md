@@ -76,4 +76,4 @@ Yes!
 	explain in terms of blueprints
 - iii. What roles do parameters play in all this?
 - iv. Come up with a blueprint and some possible parameters
-- v. create a new object from your blueprint, use java syntax.
+- v. Create a new object from your blueprint, use java syntax.
