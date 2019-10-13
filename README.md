@@ -1,5 +1,5 @@
 # What is this?
- - Github repo for Susie and George and Neil's Java programming class.
+ - Github repo for Susie, George, Neil and Mike's Java programming class.
 
 ## PvsPLN homework instructions (9/7):
  - mutiple prints vs mutiple printlns in your code.
