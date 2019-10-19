@@ -33,3 +33,7 @@ public class Funnnction2
 		return acorn * nut / pinecone;
 	}
 }
+/*
+ duh im susie and i like acorns covered in peanut butter.
+ drinking out of the toilet is fun.
+ */
