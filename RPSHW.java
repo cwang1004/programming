@@ -53,7 +53,6 @@ public class RPSHW
 		{
 			System.out.println("Enter your option: Type 1 for Rock, Type 2 for Paper or Type 3 for Scissor.");
 			option = input.nextInt();
-			option = input.nextInt();
 		}
 
 		if(option == 1)
