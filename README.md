@@ -38,7 +38,7 @@
 Question (From Susie)
 So * is multiplication and / is divide?
 Yes!
-```
+```can you guys see what I pushed ?if yes , please respond
 
 ## Starting Our First Game! (10/05):
 ### Time to Digest
@@ -75,5 +75,6 @@ Yes!
 	```
 	explain in terms of blueprints
 - iii. What roles do parameters play in all this?
-- iv. Come up with a blueprint and some possible parameters
+- iv.h a blueprint and some possibl Come up wite parameters
 - v. Create a new object from your blueprint, use java syntax.
+hey everybody zai ni tou shang bao kou !
