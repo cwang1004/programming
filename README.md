@@ -33,7 +33,7 @@
  - Do a brief review of all the things we've learned (types, loops, prints, methods, +, -, *, /)
  - Experiment with different combinations of these things, mess around a little bit, make educated guesses.
  - You have learned enough about java to experiment on you own now. Time to let loose your curiosity.
- - P.S: you guys are more than welcomed to visit https://github.com/cwang1004/programming You can get a pretty neat look on all the     files 
+ - P.S: you guys are more than welcomed to visit You can get a pretty neat look on all the     files 
 ```
 Question (From Susie)
 So * is multiplication and / is divide?
@@ -76,4 +76,7 @@ Yes!
 	explain in terms of blueprints
 - iii. What roles do parameters play in all this?
 - iv. Come up with a blueprint and some possible parameters
-- v. Create a new object from your blueprint, use java syntax.
+- v. Create a new object from your blueprint, use java syntax.https://github.com/cwang1004/programming
+
+quesion(from neil)
+what is "add your number add the end"?
