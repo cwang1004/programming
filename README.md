@@ -38,7 +38,7 @@
 Question (From Susie)
 So * is multiplication and / is divide?
 Yes!
-```can you guys see what I pushed ?if yes , please respond
+```
 
 ## Starting Our First Game! (10/05):
 ### Time to Digest
