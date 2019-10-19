@@ -1,5 +1,5 @@
 # What is this?
- - Github repo for Susie and George and Neil's Java programming class.
+ - Github repo for Susie, George, Neil and Mike's Java programming class.
 
 ## PvsPLN homework instructions (9/7):
  - mutiple prints vs mutiple printlns in your code.
@@ -44,14 +44,36 @@ Yes!
 ### Time to Digest
  - We went over a lot of materials in class, including Scanner, conditional statements, while loops, and so on. So it is important that you take time to go over these materials time and time again. Start out by going over the program we wrote together in class. When you think you understand everything, write the program from scratch on your own. The most you are allowed to copy is the printPaper, printRock, and printScissors methods.
  - Pay attention to the 'nested while loops', think about what each while loop does? Why is our programming running forever? Why is input sanitization possible?
-*/
+```
  Question(From Susie)
  You mean scrach? Make it on scrach? That orange cat? Or write the program again? Ummmmm,,, I don't have scrach... By the way...
-/*
+ 
+ Answer: From scratch means from nothing haha. So create a new program. Good question!
+```
 
-### Answer the following questioins by block commenting in your program
+### Answer the Following Questioins By Block Commenting in Your Program
 - Neil, if you don't know how to comment, create a 'answer.txt' file and push that
 - 1. Is Scanner a data type? Is it a primitive type or an object type?
 - 2. What's the difference between a primitive type and an object type?
 - 3. List 2-3 functions from the Scanner type.
-- 2. List out as many conditional statements as possible.
+- 4. List out as many conditional statements as possible.
+'gblb.b,'
+## Greetings! Construction Workers! (10/12):
+### Nothing Goes Under the Rug
+- Yup, most of you didn't do the previous homwork. So please go do it now. :)
+- Create a file named RPSCOPY.java, add your number at the end. For example, susie is RPSCOPY2.java, neil is RPSCOPY3.java, mike is RPSCOPY4.java.
+- Remember the class name needs to be the same as the file name! So figure your class names out.
+- Mike, please copy line by line from RPS.java. Type character by character, no copy pasting. Try to understand as much as possible. Some things are impossible for you understand now so that's fine.
+- George, you can skip this part.
+
+### Answer the Following Questioins By Block Commenting in Your Program
+- If you don't know how to block comment, go do some research online. It's very easy
+- i. What is a class?
+- ii. What do we mean when we write
+	```
+	Scanner newScanner = new Scanner(System.in); 
+	```
+	explain in terms of blueprints
+- iii. What roles do parameters play in all this?
+- iv. Come up with a blueprint and some possible parameters
+- v. Create a new object from your blueprint, use java syntax.
