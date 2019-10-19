@@ -1,5 +1,5 @@
 # What is this?
- - Github repo for Susie and George and Neil's Java programming class.
+ - Github repo for Susie, George, Neil and Mike's Java programming class.
 
 ## PvsPLN homework instructions (9/7):
  - mutiple prints vs mutiple printlns in your code.
@@ -38,7 +38,7 @@
 Question (From Susie)
 So * is multiplication and / is divide?
 Yes!
-```
+```can you guys see what I pushed ?if yes , please respond
 
 ## Starting Our First Game! (10/05):
 ### Time to Digest
@@ -57,7 +57,7 @@ Yes!
 - 2. What's the difference between a primitive type and an object type?
 - 3. List 2-3 functions from the Scanner type.
 - 4. List out as many conditional statements as possible.
-'gblb.b,'
+
 ## Greetings! Construction Workers! (10/12):
 ### Nothing Goes Under the Rug
 - Yup, most of you didn't do the previous homwork. So please go do it now. :)
@@ -77,6 +77,5 @@ Yes!
 - iii. What roles do parameters play in all this?
 - iv. Come up with a blueprint and some possible parameters
 - v. Create a new object from your blueprint, use java syntax.https://github.com/cwang1004/programming
-
-quesion(from neil)
-what is "add your number add the end"?
+- iv.h a blueprint and some possibl Come up wite parameters
+- v. Create a new object from your blueprint, use java syntax.

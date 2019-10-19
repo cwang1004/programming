@@ -20,6 +20,24 @@ example: George > Susie
 &&
 I'm done. Thank you.
 Cue the applause.
+
+HW2 isn't that nice.
+a class is the blueprint of the project.
+(No offensive jokes)
+we mean that we are using the blueprints to create
+a new Scanner
+A cold, lifeless one.
+JK.
+The paremeters are the differences.
+err...
+a blueprint is like a class...
+System.in(That scans the terminal)
+Scanner 2good4u = new Scanner(System.in);
+Sorry, I kinda forgot 'bout the homework.
+I was really busy.
+Really!
+'_'
+
 */
 import java.util.*;
 public class RPSHW
