@@ -79,3 +79,4 @@ Yes!
 - v. Create a new object from your blueprint, use java syntax.
 - iv.h a blueprint and some possibl Come up wite parameters
 - v. Create a new object from your blueprint, use java syntax.
+（question from mike) :whats the homework?
