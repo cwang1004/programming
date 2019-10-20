@@ -79,4 +79,24 @@ Yes!
 - v. Create a new object from your blueprint, use java syntax.https://github.com/cwang1004/programming
 - iv.h a blueprint and some possibl Come up wite parameters
 - v. Create a new object from your blueprint, use java syntax.
-（question from mike) :whats the homework?
+
+## Using What You've Learned (10/19):
+### Scanner Object and If-Else
+- Create a file named StudentProfile.java. As always, add your number at the end
+- Use a scanner to ask for a student's information including name(String), age(int), gender(int), and height(double).
+- Print out student's profile at the end using the following format
+	```
+	Name: Charles
+	Age: 28
+	Gender: Male
+	Height: 1.83m
+	```
+- Hint1: double is just the same as float
+- Hint2: you need to prompt for each input and store the input in variables
+- Hint3: how would you prompt for gender? Since you want input to be of type int
+- Hint4: use nextLine() for String inputs
+- Hint5: use nextDouble() for double inputs
+- Hint6: when you're printing the profile, i don't wanna see gender:0 or gender:1. Maybe use....if?
+- Hint7: when printing, think about String concatenation. If you don't know or forgot, checkout programs called concat in your folder
+- Hint8: Slow your mind down. Be logical, my friends
+- Hint9: Do your best, comment in your program if you have questions. Push it if you're absolutely stuck. I'll use comments to answer your questions in your programs ASAP. So you can pull it back and give it another shot.
