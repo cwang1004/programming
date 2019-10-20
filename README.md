@@ -97,6 +97,12 @@ Yes!
 - Hint4: use nextLine() for String inputs
 - Hint5: use nextDouble() for double inputs
 - Hint6: when you're printing the profile, i don't wanna see gender:0 or gender:1. Maybe use....if?
-- Hint7: when printing, think about String concatenation. If you don't know or forgot, checkout programs called concat in your folder
-- Hint8: Slow your mind down. Be logical, my friends
-- Hint9: Do your best, comment in your program if you have questions. Push it if you're absolutely stuck. I'll use comments to answer your questions in your programs ASAP. So you can pull it back and give it another shot.
+- Hint7: when printing, think about String concatenation. If you don't know or forgot, checkout programs called concat in your folder. Or check out this example below
+	```
+	int a = 50;
+	System.out.println("Age: " + a);
+	//You can concat variables with Strings. In this case int a is automatically converted into String by Java
+	```
+- Hint8: slow your mind down. Be logical, my friends
+- Hint9: do your best, comment in your program if you have questions. Push it if you're absolutely stuck. I'll use comments to answer your questions in your programs ASAP. So you can pull it back and give it another shot.
+- Mike, I'll contact you on wechat about how to run java files
