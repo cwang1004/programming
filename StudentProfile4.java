@@ -18,3 +18,9 @@ System.out.PrintIn("Enter your option _____-_____")
 	System.out.PrintIn("height:______")
 
 }
+
+//Mike, are you trying? 
+//Please at least read my hints
+//And please at least read the code in your RockPapetScissors program.
+//This is not even a program...
+//More efforts please
