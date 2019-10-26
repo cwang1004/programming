@@ -9,23 +9,35 @@ public class StudentPorfile3
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
+		
 		System.out.println("enter your username"); //promt
-		String name = input.nextstring();
+		String name = input.nextLine();
 
 		System.out.println("enter your age");
-		int age = input.nextint();
-		System.out.println("enter your gender 1-male 2-female");
-		int gender = input.nextInt();
-		while(gender < 1 || > 2)
+		int age = input.nextInt();
+
+		int gender = 0;
+		while(gender < 1 || gender > 2)
 		{
-			if(gender == 1 )
-			gender = input.nextdouble();
-			else 
-			gender = input.nextdouble();
+			System.out.println("Enter you gender: 1 - male, 2 - female");
+			gender = input.nextInt();
 		}
-		System.out.println("enter your hight");
-		String hight = input.nextstring();
-		System.out.println("loading");
-		System.out.println("name,age,gender,hight");
+
+		System.out.println("enter your height");
+		double height = input.nextDouble();
+		System.out.println("");
+		System.out.println("loading...");
+		System.out.println("");
+		System.out.println("name: "+ name);
+		System.out.println("age: "+ age );
+		if(gender == 1)
+		{
+			System.out.println("gender: male");
+		}
+		else
+		{
+			System.out.println("gender: female");
+		}		
+		System.out.println("height: "+ height);
 	}
 }
