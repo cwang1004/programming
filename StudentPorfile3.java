@@ -15,7 +15,7 @@ public class StudentPorfile3
 		System.out.println("enter your age");
 		int age = input.nextint();
 		System.out.println("enter your gender 1-male 2-female");
-		int gender = input.nextint();
+		int gender = input.nextInt();
 		while(gender < 1 || > 2)
 		{
 			if(gender == 1 )
