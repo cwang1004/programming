@@ -1,5 +1,5 @@
 1.StudentProfile4.java    
-2.Scanner gender == new Scanner(System.in);
+2.public class StudentProfile4.java Scanner gender == new Scanner(System.in);
 System.out.PrintIn("Enter your option 1-boy 2-girl")
 
 Scanner name == new Scanner(System.in);

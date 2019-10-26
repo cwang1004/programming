@@ -9,7 +9,7 @@ public class RPS4
 			int option = 0;
 			while(option > 3 || option < 1)
 			{
-				System.out.println("Enter your option: Rock=1, Paper=2, or Sissors=3 or bigger");
+				 ock=1, Paper=2, or Sissors=3 or bigger");
 				option = smile.nextInt();
 			}
 
