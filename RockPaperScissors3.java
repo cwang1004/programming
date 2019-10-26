@@ -1,7 +1,6 @@
 /*
 -class is a blue print of an object
--
-
+-stupid poop
 */
 
 
