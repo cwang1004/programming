@@ -33,7 +33,11 @@
  - Do a brief review of all the things we've learned (types, loops, prints, methods, +, -, *, /)
  - Experiment with different combinations of these things, mess around a little bit, make educated guesses.
  - You have learned enough about java to experiment on you own now. Time to let loose your curiosity.
+<<<<<<< HEAD
  - P.S: you guys are more than welcomed to visit https://github.com/cwang1004/programming You can get a pretty neat look on all the files 
+=======
+ - P.S: you guys are more than welcomed to visit https://github.com/cwang1004/programming You can get a pretty neat look on all the     files 
+>>>>>>> 169123be7d34f4eda6b46fb73a84be110941ba4a
 ```
 Question (From Susie)
 So * is multiplication and / is divide?
@@ -76,7 +80,36 @@ Yes!
 	explain in terms of blueprints
 - iii. What roles do parameters play in all this?
 - iv. Come up with a blueprint and some possible parameters
+<<<<<<< HEAD
 - v. Create a new object from your blueprint, use java syntax.
 - iv.h a blueprint and some possibl Come up wite parameters
+=======
+>>>>>>> 169123be7d34f4eda6b46fb73a84be110941ba4a
 - v. Create a new object from your blueprint, use java syntax.
-（question from mike) :whats the homework?
+
+## Using What You've Learned (10/19):
+### Scanner Object and If-Else
+- Create a file named StudentProfile.java. As always, add your number at the end
+- Use a scanner to ask for a student's information including name(String), age(int), gender(int), and height(double).
+- Print out student's profile at the end using the following format
+	```
+	Name: Charles
+	Age: 28
+	Gender: Male
+	Height: 1.83m
+	```
+- Hint1: double is just the same as float
+- Hint2: you need to prompt for each input and store the input in variables
+- Hint3: how would you prompt for gender? Since you want input to be of type int
+- Hint4: use nextLine() for String inputs
+- Hint5: use nextDouble() for double inputs
+- Hint6: when you're printing the profile, i don't wanna see gender:0 or gender:1. Maybe use....if?
+- Hint7: when printing, think about String concatenation. If you don't know or forgot, checkout programs called concat in your folder. Or check out this example below
+	```
+	int a = 50;
+	System.out.println("Age: " + a);
+	//You can concat variables with Strings. In this case int a is automatically converted into String by Java
+	```
+- Hint8: slow your mind down. Be logical, my friends
+- Hint9: do your best, comment in your program if you have questions. Push it if you're absolutely stuck. I'll use comments to answer your questions in your programs ASAP. So you can pull it back and give it another shot.
+- Mike, I'll contact you on wechat about how to run java files

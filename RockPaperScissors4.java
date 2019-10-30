@@ -35,8 +35,6 @@ public class RockPaperScissors4
     	}
 	}	
 
-
-	}
     public static void printScissor()
 	{
 		System.out.println(" **    ** ");
