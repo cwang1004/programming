@@ -113,3 +113,5 @@ Yes!
 - Hint8: slow your mind down. Be logical, my friends
 - Hint9: do your best, comment in your program if you have questions. Push it if you're absolutely stuck. I'll use comments to answer your questions in your programs ASAP. So you can pull it back and give it another shot.
 - Mike, I'll contact you on wechat about how to run java files
+question from mike : 
+Mr.Charles , how to change java from notes to program again 
