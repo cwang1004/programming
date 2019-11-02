@@ -4,25 +4,22 @@ public class RockPaperScissors2
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
-		int option = 0;
+		int plOption = 0;
 
-		while(option < 1 || option > 3)
+		while(plOption < 1 || plOption > 3)
 		{
 			System.out.println("Enter your option: 1=Rock, 2=Paper and 3=Scissor");	
-			option = input.nextInt();
+			plOption = input.nextInt();
 		}
-			
-		if(option == 1)
-		{
-			printRock();
-		}
-		else if (option == 2)
-		{
-			printPaper();
-		}
-		else
-		{
-			printScissor();
+
+		Random randomizer = new Random();
+		int compOption = input.nextInt(3) + 1;
+		int a = 0;
+		while(a < 10)
+		{ 
+		 	System.out.println(compOption);
+			compOption = input.nextInt(3) + 1;
+			a++1;
 		}
 		System.out.println("");
 		System.out.println("  I'm A Rock");
