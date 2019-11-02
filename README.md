@@ -33,24 +33,23 @@
  - Do a brief review of all the things we've learned (types, loops, prints, methods, +, -, *, /)
  - Experiment with different combinations of these things, mess around a little bit, make educated guesses.
  - You have learned enough about java to experiment on you own now. Time to let loose your curiosity.
- - P.S: you guys are more than welcomed to visit https://github.com/cwang1004/programming You can get a pretty neat look on all the     files 
-```
-Question (From Susie)
-So * is multiplication and / is divide?
-Yes!
-```
+ - P.S: you guys are more than welcomed to visit https://github.com/cwang1004/programming You can get a pretty neat look on all the files 
+	```
+	Question (From Susie)
+	So * is multiplication and / is divide?
+	Yes!
+	```
 
 ## Starting Our First Game! (10/05):
 ### Time to Digest
  - We went over a lot of materials in class, including Scanner, conditional statements, while loops, and so on. So it is important that you take time to go over these materials time and time again. Start out by going over the program we wrote together in class. When you think you understand everything, write the program from scratch on your own. The most you are allowed to copy is the printPaper, printRock, and printScissors methods.
  - Pay attention to the 'nested while loops', think about what each while loop does? Why is our programming running forever? Why is input sanitization possible?
-```
- Question(From Susie)
- You mean scrach? Make it on scrach? That orange cat? Or write the program again? Ummmmm,,, I don't have scrach... By the way...
- 
- Answer: From scratch means from nothing haha. So create a new program. Good question!
-```
-
+	```
+	 Question(From Susie)
+	 You mean scrach? Make it on scrach? That orange cat? Or write the program again? Ummmmm,,, I don't have scrach... By the way...
+	 
+	 Answer: From scratch means from nothing haha. So create a new program. Good question!
+	```
 ### Answer the Following Questioins By Block Commenting in Your Program
 - Neil, if you don't know how to comment, create a 'answer.txt' file and push that
 - 1. Is Scanner a data type? Is it a primitive type or an object type?
@@ -76,7 +75,8 @@ Yes!
 	explain in terms of blueprints
 - iii. What roles do parameters play in all this?
 - iv. Come up with a blueprint and some possible parameters
-- v. Create a new object from your blueprint, use java syntax.
+- v. Create a new object from your blueprint, use java syntax
+- vi. Come up with some reasonable parameters for your blueprint
 
 ## Using What You've Learned (10/19):
 ### Scanner Object and If-Else
@@ -105,7 +105,8 @@ Yes!
 - Hint9: do your best, comment in your program if you have questions. Push it if you're absolutely stuck. I'll use comments to answer your questions in your programs ASAP. So you can pull it back and give it another shot.
 - Mike, I'll contact you on wechat about how to run java files
 
-```
-Can we use rm -r on programs that we don't want like 1.StudentProfile4.java?
-P.S Starberries for the win!
-```
+## Mike and Neil's Catchup Class (10/26):
+### Covering the bases
+- Please finish the homework for (9/7)
+- Please finish the first part of the homework for (9/21)
+- Mike, what makes a Java program is the syntax. Meaning you need to have a class, a main method, and using the right symbols at the right places.
