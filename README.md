@@ -180,7 +180,10 @@
 - In the same file, write a program that prints out 10 lines of randomly generated doubles in the range of 0.0 to 1.0
 - Write another section of code that prints of 10 lines of randomly generated doubles in the range of 10.0 to 20.0
 - Requirement: use while loops, and in both while loops you must use the same counter variable
-- Hint: In Java, math rules and syntax applies. (1+2)*10 equals 30 while 1+2*10 equals 21
+- Hint: In Java, math rules and syntax applies:
+	```
+	(1+2)*10 equals 30 while 1+2*10 equals 21
+	```
 - Example output:
  	```
 	0.16128877662404295
