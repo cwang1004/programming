@@ -24,10 +24,6 @@ public class RockPaperScissors2
 		{
 			printScissor();
 		}
-	}
-	
-	public static void printRock()
-	{
 		System.out.println("");
 		System.out.println("  I'm A Rock");
 		System.out.println("  *********");
