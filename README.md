@@ -50,6 +50,7 @@
 	 
 	 Answer: From scratch means from nothing haha. So create a new program. Good question!
 	```
+
 ### Answer the Following Questioins By Block Commenting in Your Program
 - Neil, if you don't know how to comment, create a 'answer.txt' file and push that
 - 1. Is Scanner a data type? Is it a primitive type or an object type?
