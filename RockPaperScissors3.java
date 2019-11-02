@@ -1,8 +1,6 @@
 /*
 -class is a blue print of an object
--stupid poop
 */
-
 
 
 import java.util.*;
@@ -12,25 +10,22 @@ public class RockPaperScissore
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
-		int option = 0;
+		int playerOption = 0;
 
-		while(option < 1 || option > 3)
+		while(playerOption < 1 || playerOption > 3)
 		{
 			System.out.println("Enter your option 1-rock 2-paper 3-scissors");
-			option = input.nextInt();
+			playerOption = input.nextInt();
 		}
 
-		if(option == 1)
+		Random randomizer = new Random();
+		int computerOption =randomizer.nextInt(3) + 1;
+		int i = 0;
+		while(i < 10)
 		{
-			printRock();
-		}
-		else if(option == 2)
-		{
-			printPaper();
-		}
-		else
-		{
-			printScissor();
+			System.out.println(computerOption);
+			computerOption = randomizer.nextInt(3) + 1;
+			i++;
 		}
 	}
 
