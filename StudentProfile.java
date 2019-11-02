@@ -32,8 +32,6 @@ public class StudentProfile
 		System.out.println("Height: " + height);
 		System.out.println("Age: " + age);
 		System.out.println("Creation Successfull!");
-
-
 	}
 }
 /*
