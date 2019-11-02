@@ -107,7 +107,101 @@
 - Mike, I'll contact you on wechat about how to run java files
 
 ## Mike and Neil's Catchup Class (10/26):
-### Covering the bases
+### Covering the Bases
 - Please finish the homework for (9/7)
 - Please finish the first part of the homework for (9/21)
 - Mike, what makes a Java program is the syntax. Meaning you need to have a class, a main method, and using the right symbols at the right places.
+
+## Opening the Door (11/2):
+### Warm Up
+- File name: PlayGround.java plus your number
+- Answer the following with block comment in the beginning of the file
+- Please run the snippets in your head or on paper. Thank you.
+- What is foo after running the following code snippet?
+	```
+	int foo = 1;
+	foo += 1;
+	```
+- What is foo after running the following code snippet?
+	```
+	int foo = 0;
+	foo++;
+	foo++;
+	```
+- What is foo and bar after running the following code snippet?
+	```
+	int foo = 1;
+	int bar = 2;
+	foo += bar;
+	bar = 0;
+	foo += bar;
+	```
+- What is foo and bar after running the following code snippet?
+	```
+	int foo = 15;
+	int bar = 0;
+	while(bar < 3)
+	{
+		bar ++;
+	}
+	foo += bar;
+	bar += foo;
+	foo++;
+	bar--;
+	```
+- What is j after running the following code snippet?
+	```
+	int i = 0;
+	int j = 0;
+	while(i < 5)
+	{
+		j += i;
+		i++;
+	}
+	```
+### Randomness
+- Continue answering the following questions
+- i. How would you describe randomness?
+- ii. What's a real life example of randomness?
+- iii. Why is randomness important? Especially in game design
+- iv. Is the result of flipping a fair coin random?
+- v. Is the result of flipping a rigged coin (30% heads, 70% tails) random? If not, why?
+- In the same file, write a program that prints out 20 lines of randomly generated integers in the range of 11 to 100
+- Hint: Please use a while loop
+
+### World of APIs
+- Please bookmark this website in your browswer: https://docs.oracle.com/en/java/javase/13/docs/api/index.html
+- Go back to the block comment section and continue answering the following questions
+- i. What is API?
+- ii. Do you think it's an important tool for programmers? If so, why?
+- iii. Go to the Java API website and write down the name of the method that randomly generate doubles
+- iv. Read, copy, then paste the method description here
+- v. Does this method take any parameters?
+- In the same file, write a program that prints out 10 lines of randomly generated doubles in the range of 0.0 to 1.0
+- Write another section of code that prints of 10 lines of randomly generated doubles in the range of 10.0 to 20.0
+- Requirement: use while loops, and in both while loops you must use the same counter variable
+- Hint: In Java, math rules and syntax applies. (1+2)*10 equals 30 while 1+2*10 equals 21
+- Example output:
+ 	```
+	0.16128877662404295
+	0.35300401869031106
+	0.04765696214116133
+	0.18876692612554924
+	0.4152335383045661
+	0.7408838404386539
+	0.6935446828357802
+	0.1616275098823059
+	0.047064440604428714
+	0.6900623692245837
+	-------------------------------
+	16.864629590093784
+	19.933918412626817
+	14.089897725742397
+	14.9792075093087
+	15.565249736172756
+	16.477165203228132
+	18.848567316535267
+	19.260296526255406
+	12.800398988511965
+	11.909072353292895
+	```
