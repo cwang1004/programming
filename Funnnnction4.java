@@ -8,4 +8,7 @@
 */
 
 
-mike is awesome!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/* 
+november 3th
+1.API is a libary of Java codes
+2.it is important because programmers can search many Java codes they dont know on them

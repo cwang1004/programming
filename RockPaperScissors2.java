@@ -3,13 +3,10 @@ public class RockPaperScissors2
 {
 	public static void main(String[] args)
 	{
-		Scanner input = new Scanner(System.in); //making a new Scanner called input, with parameter System.in
-		
-		int option = 0; //
-		while(option < 1 || option > 3)
+		while(plOption < 1 || plOption > 3)
 		{
 			System.out.println("Enter your option: 1=Rock, 2=Paper and 3=Scissor");	
-			option = input.nextInt();
+			plOption = input.nextInt();
 		}
 
 		Random randomizer = new Random();
