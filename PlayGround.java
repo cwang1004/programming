@@ -57,7 +57,7 @@ public class DecimalPrintout
 		{
 			System.out.println(random2);
 			random2 = randomizer2.nextDouble();
-			random2 = (random2 * 10) + 9.99;
+			random2 = (random2 * 10) + 10;
 			b++;
 		}
 	}
