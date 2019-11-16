@@ -12,6 +12,8 @@ public class DecimalPrintout
 {
 	public static void main(String[] args)
 	{
+		printout1();
+		System.out.println("");
 		printout2();
 	}
 
