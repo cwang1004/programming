@@ -20,7 +20,7 @@ java fairy that tells you everything.
 nextDouble() 
 Returns the next pseudorandom, 
 uniformly distributed double value between 0.0 and 1.0 from this random number generator's sequence.
-Yes.
+NO
 */
 import java.util.*;
 public class DecimalPrintout
