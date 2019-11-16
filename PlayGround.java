@@ -63,12 +63,11 @@ public class DecimalPrintout
 	public static void printout3()
 	{
 		Random randomizer3 = new Random();
-		int random3 = randomizer3.nextInt();
 		int c = 0;
 		while(c < 20)
 		{
+			int random3 = randomizer3.nextInt(89) + 11;
 			System.out.println(random3);
-			random3 = randomizer3.nextInt(89) + 11;
 			c++;
 		}
 	}
