@@ -13,12 +13,14 @@ Because it prevents cheating
 YES
 No it's not because it's not equal
 
+It's a java database
 I think it is an important tool for programmers
 because sometimes there just isn't a magical
 java fairy that tells you everything.
 nextDouble() 
 Returns the next pseudorandom, 
 uniformly distributed double value between 0.0 and 1.0 from this random number generator's sequence.
+Yes.
 */
 import java.util.*;
 public class DecimalPrintout
@@ -67,7 +69,7 @@ public class DecimalPrintout
 		while(c < 20)
 		{
 			int random3 = randomizer3.nextInt(89) + 11;
-			System.out.println(random3);
+			System.out.println(random3);  
 			c++;
 		}
 	}
