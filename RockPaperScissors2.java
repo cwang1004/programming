@@ -3,27 +3,17 @@ public class RockPaperScissors2
 {
 	public static void main(String[] args)
 	{
-		Scanner input = new Scanner(System.in);
-		int option = 0;
-
+		Scanner input = new Scanner(System.in); //making a new Scanner called input, with parameter System.in
+		
+		int option = 0; //
 		while(option < 1 || option > 3)
 		{
 			System.out.println("Enter your option: 1=Rock, 2=Paper and 3=Scissor");	
 			option = input.nextInt();
 		}
-			
-		if(option == 1)
-		{
-			printRock();
-		}
-		else if (option == 2)
-		{
-			printPaper();
-		}
-		else
-		{
-			printScissor();
-		}
+
+		Random randomizer = new Random();
+		int computerOption = randomizer.nextInt(3) + 1;
 	}
 	
 	public static void printRock()
