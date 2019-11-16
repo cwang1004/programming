@@ -1,26 +1,37 @@
 import java.util.*;
-public class RockPaperScissors2
+public class RockPaperScissors
 {
 	public static void main(String[] args)
 	{
-		Scanner input = new Scanner(System.in);
-		int plOption = 0;
-
-		while(plOption < 1 || plOption > 3)
+		int cotinuee = 1;
+		while(cotinuee == 1)
 		{
-			System.out.println("Enter your option: 1=Rock, 2=Paper and 3=Scissor");	
-			plOption = input.nextInt();
-		}
+			Scanner input = new Scanner(System.in);
+			int plOption = 9999999;
 
-		Random randomizer = new Random();
-		int compOption = input.nextInt(3) + 1;
-		int a = 0;
-		while(a < 10)
-		{ 
-		 	System.out.println(compOption);
-			compOption = input.nextInt(3) + 1;
-			a++1;
+			while(plOption > 3 || plOption < 1)
+			{
+				System.out.println("Enter your option: Type 1 for Rock, Type 2 for Paper or Type 3 for Scissor.");
+				plOption = input.nextInt();
+			}
+
+			Random randomizer = new Random();
+			int compOption = randomizer.nextInt(3) + 1;
+
+			showOptions(plOption, compOption);
+			rusults(plOption, compOption);
+
+			cotinuee = 0;
+			while(cotinuee > 2 || cotinuee < 1)
+			{
+				System.out.println("do you want to play again? yes for 1 and quit for 2");
+				cotinuee = input.nextInt();
+			}
 		}
+	}
+
+	public static void printRock()
+	{
 		System.out.println("");
 		System.out.println("  I'm A Rock");
 		System.out.println("  *********");
@@ -45,7 +56,7 @@ public class RockPaperScissors2
 		System.out.println(" **    ** ");
 		System.out.println("          ");
 	}
-	
+
 	public static void printPaper()
 	{
 		System.out.println("   * * *");
@@ -59,5 +70,56 @@ public class RockPaperScissors2
 		System.out.println("   *  *");
 		System.out.println("   *  *");
 	}
-}
 
+	public static void showOptions(int plOption, int compOption)
+	{
+		System.out.println("player");
+		if(plOption == 1)
+		{
+			printRock();
+		}
+		else if(plOption == 2)
+		{
+			printPaper();
+		} 
+		else
+		{
+			printScissor();
+		}
+
+		System.out.println("computer");
+
+		if(compOption == 1)
+		{
+			System.out.println("1");
+			printRock();
+		}
+		else if(compOption == 2)
+		{
+			System.out.println("2");
+			printPaper();
+		} 
+		else
+		{
+			System.out.println("3");
+			printScissor();
+		}
+	}
+
+	public static void rusults(int plOption, int compOption)
+	{
+		int result = compOption - plOption;
+		if(result == 0)
+		{
+			System.out.println("draw");
+		}
+		else if(result == 1 || result == -2)
+		{
+			System.out.println("damn computer wins");
+		}
+		else
+		{
+			System.out.println("you win! :-)");
+		}
+	}
+}
