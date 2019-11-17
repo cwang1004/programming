@@ -24,7 +24,7 @@ public class RockPaperScissors
 			cotinuee = 0;
 			while(cotinuee > 2 || cotinuee < 1)
 			{
-				System.out.println("do you want to play again? yes for 1 and quit for 2");
+				System.out.println("Do you want to play again? 1 for yes and 2 for no");
 				cotinuee = input.nextInt();
 			}
 		}
@@ -73,7 +73,7 @@ public class RockPaperScissors
 
 	public static void showOptions(int plOption, int compOption)
 	{
-		System.out.println("player");
+		System.out.println("\nPlayer:");
 		if(plOption == 1)
 		{
 			printRock();
@@ -87,21 +87,17 @@ public class RockPaperScissors
 			printScissor();
 		}
 
-		System.out.println("computer");
-
+		System.out.println("Computer:");
 		if(compOption == 1)
 		{
-			System.out.println("1");
 			printRock();
 		}
 		else if(compOption == 2)
 		{
-			System.out.println("2");
 			printPaper();
 		} 
 		else
 		{
-			System.out.println("3");
 			printScissor();
 		}
 	}
@@ -111,11 +107,11 @@ public class RockPaperScissors
 		int result = compOption - plOption;
 		if(result == 0)
 		{
-			System.out.println("draw");
+			System.out.println("It's a draw!");
 		}
 		else if(result == 1 || result == -2)
 		{
-			System.out.println("damn computer wins");
+			System.out.println("Damn computer wins");
 		}
 		else
 		{
