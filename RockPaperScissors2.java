@@ -1,5 +1,5 @@
 import java.util.*;
-public class RockPaperScissors
+public class RockPaperScissors2
 {
 	public static void main(String[] args)
 	{
