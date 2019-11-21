@@ -3,16 +3,34 @@ public class RockPaperScissors2
 {
 	public static void main(String[] args)
 	{
-		while(plOption < 1 || plOption > 3)
+		int cotinuee = 1;
+		while(cotinuee == 1)
 		{
-			System.out.println("Enter your option: 1=Rock, 2=Paper and 3=Scissor");	
-			plOption = input.nextInt();
-		}
+			Scanner input = new Scanner(System.in);
+			int plOption = 9999999;
 
-		Random randomizer = new Random();
-		int computerOption = randomizer.nextInt(3) + 1;
+			while(plOption > 3 || plOption < 1)
+			{
+				System.out.println("Enter your option: Type 1 for Rock, Type 2 for Paper or Type 3 for Scissor.");
+				plOption = input.nextInt();
+			}
+
+			Random randomizer = new Random();
+			int compOption = randomizer.nextInt(3) + 1;
+
+			showOptions(plOption, compOption);
+			rusults(plOption, compOption);
+
+			cotinuee = 0;
+			while(cotinuee > 2 || cotinuee < 1)
+			{
+				System.out.println("Do you want to play again? 1 for yes and 2 for no");
+				cotinuee = input.nextInt();
+			}
+		}
 	}
-	
+
+>>>>>>> 11f46b57a91e395fc4792f5aac5978961115006a
 	public static void printRock()
 	{
 		System.out.println("");
@@ -39,7 +57,7 @@ public class RockPaperScissors2
 		System.out.println(" **    ** ");
 		System.out.println("          ");
 	}
-	
+
 	public static void printPaper()
 	{
 		System.out.println("   * * *");
@@ -53,5 +71,52 @@ public class RockPaperScissors2
 		System.out.println("   *  *");
 		System.out.println("   *  *");
 	}
-}
 
+	public static void showOptions(int plOption, int compOption)
+	{
+		System.out.println("\nPlayer:");
+		if(plOption == 1)
+		{
+			printRock();
+		}
+		else if(plOption == 2)
+		{
+			printPaper();
+		} 
+		else
+		{
+			printScissor();
+		}
+
+		System.out.println("Computer:");
+		if(compOption == 1)
+		{
+			printRock();
+		}
+		else if(compOption == 2)
+		{
+			printPaper();
+		} 
+		else
+		{
+			printScissor();
+		}
+	}
+
+	public static void rusults(int plOption, int compOption)
+	{
+		int result = compOption - plOption;
+		if(result == 0)
+		{
+			System.out.println("It's a draw!");
+		}
+		else if(result == 1 || result == -2)
+		{
+			System.out.println("Damn computer wins");
+		}
+		else
+		{
+			System.out.println("you win! :-)");
+		}
+	}
+}
