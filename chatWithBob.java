@@ -1,5 +1,5 @@
 import java.util.*;
-public class chatWithBob
+public class ChatWithBob
 {
 	public static void main(String[] args)
 	{
