@@ -1,5 +1,5 @@
-	import java.util.*;
-public class RockPaperScissors
+import java.util.*;
+public class RockPaperScissors2
 {
 	public static void main(String[] args)
 	{
@@ -30,6 +30,7 @@ public class RockPaperScissors
 		}
 	}
 
+>>>>>>> 11f46b57a91e395fc4792f5aac5978961115006a
 	public static void printRock()
 	{
 		System.out.println("");
