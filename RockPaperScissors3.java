@@ -20,12 +20,54 @@ public class RockPaperScissore
 
 		Random randomizer = new Random();
 		int computerOption =randomizer.nextInt(3) + 1;
-		int i = 0;
-		while(i < 10)
+		showOptions(playerOption, computerOption);
+		printresult(playerOption, computerOption);
+	}
+
+	public static void showOptions(int player, int computer)
+	{
+		System.out.println("player option");
+		if(player == 1)
 		{
-			System.out.println(computerOption);
-			computerOption = randomizer.nextInt(3) + 1;
-			i++;
+			printRock();
+		}
+		else if(player == 2)
+		{
+			printPaper();
+		}
+		else
+		{
+			printScissor();
+		}
+		System.out.println("computer option");
+		if(computer == 1)
+		{
+			printRock();
+		}
+		else if(computer == 2)
+		{
+			printPaper();
+		}
+		else
+		{
+			printScissor();
+		}
+	}
+
+	public static void printresult(int player, int computer)
+	{
+		int result = computer - player;
+		if(result == 1 || result == -2)
+		{
+			System.out.println("you lost");
+		}
+		 else if(result == 0)
+		{
+			System.out.println("draw");
+		}
+		else
+		{
+			System.out.println("you win");
 		}
 	}
 
