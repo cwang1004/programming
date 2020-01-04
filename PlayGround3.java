@@ -6,10 +6,10 @@
 5.j is 6
 
 6.each time not same
-7.each time not same again
+7.each time is not the same
 8.it will be not boring
-9.????
-10.???
+9.@$%@&**%&@$#!!$!&^%!$!^!%!!%@$%*
+10.$%^%^#!$#&%^8_!*&$@#$&^%#%@@*%!
 */
 import java.util.*;
 
@@ -19,12 +19,12 @@ public class Playground3
 	public static void main(String[] args)
 	{
 		Random iii = new Random();
-		int poop = iii.nextInt(3) + 1;
+		int poop = iii.nextInt(90) + 11;
 		int i = 0;
 		while(i < 20)
 		{
 			System.out.println(poop);
-			poop = iii.nextInt();
+			poop = iii.nextInt(90) + 11;
 			i++;
 		}
 	}
