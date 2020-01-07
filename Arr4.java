@@ -20,4 +20,5 @@ public class Arr4
 	}
 		
 } 
-//im not sure if this code is right.can you correct it if its wrong? thanks Mr.Charles.	
+//im not sure if this code is right.can you correct it if its wrong? thanks Mr.Charles.
+//mike2020/1/7:what is code the classic Mr.Charles???
