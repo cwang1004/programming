@@ -245,7 +245,6 @@
     Mike's favorite movie is Pokemon
     George's favorite movie is Pokemon
     Susie's favorite movie is Pokemon
-    George's favorite movie is Pokemon
     Charles's favorite movie is 300
     ```
 - Hint 1: You can start the counter of the for loop from the last index of the array
