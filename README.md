@@ -208,3 +208,52 @@
 	12.800398988511965
 	11.909072353292895
 	```
+
+## Intro to Arrays (1/11):
+- Please name your file ArrayHWPT1 followed by your number
+
+### Basics
+- Answer the following using block comments
+- What is an Array? Data type, data structure, or both?
+- What are the benefits of using data structures?
+
+### Problem Set 1
+- Write code to solve the following problems
+- Store the names of some of your classmates in one variable called classmates
+- Store their favorite movies in another variable called favMovies
+- Example
+    ```
+    ["Charles", "Susie", "George", "Mike", "Neil"]
+    
+    ["300", "Pokemon", "Pokemon", "Pokemon", "Pokemon"]
+    
+    ```
+    Note that the indices match. So Charles' favorite movie is 300, Susie's is Pokemon, and so on
+- Now create an appropriate loop to print out the following:
+    ```
+    Charles's favorite movie is 300
+    Susie's favorite movie is Pokemon
+    George's favorite movie is Pokemon
+    Mike's favorite movie is Pokemon
+    Neil's favorite movie is Pokemon
+    ```
+- Hint 1: String concatenation is your friend
+- Hint 2: The length of the two arrays is the same
+- Now create an appropriate loop to print out the following (reversed):
+    ```
+    Neil's favorite movie is Pokemon
+    Mike's favorite movie is Pokemon
+    George's favorite movie is Pokemon
+    Susie's favorite movie is Pokemon
+    George's favorite movie is Pokemon
+    Charles's favorite movie is 300
+    ```
+- Hint 1: You can start the counter of the for loop from the last index of the array
+
+### Algorithm 1
+- Create a method called sum that returns the sum of all the integers in the parameter array
+- Example
+    ```
+    [1,5,7,-10]
+    sum is 3
+    ```

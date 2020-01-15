@@ -30,7 +30,6 @@ public class RockPaperScissors2
 		}
 	}
 
->>>>>>> 11f46b57a91e395fc4792f5aac5978961115006a
 	public static void printRock()
 	{
 		System.out.println("");
