@@ -26,7 +26,7 @@ public class Arr4
 	public static int currentMax(int[] arr) //creating a public , static int varieble name currentMax. ( and a type int varieble name arr) 
 	{
 		int currentMax = arr[0];//the system now knew the first "card" so it think 0 is the biggest
-		for(int i=1; i<arr.length;i++)// if i is less than arr's length ( which means how many buckets ),keep "flipping the next card"
+		for(int i=1; i<arr.length;i++)// ( start from bucket 1 )if i is less than arr's length ( which means how many buckets ),keep "flipping the next card"
 		{
 			if(arr[i]>currentMax);//if "the card flipped just now" is more than the currentMax known before , ↓
 			{
@@ -44,6 +44,6 @@ public class Arr4
 		}
 	}
 	*/
-	//unfinished program ↑
+	//unfinished program 
 		
 } 

@@ -1,0 +1,40 @@
+/*
+Array is a series of object that have the same length and type.its a data structure because it organizes information.
+the benefits of using data structure is that you can get data organized very well
+*/
+
+public class ArrayHWPT14
+{
+	public static void main(String[] args)
+	{
+		int []classmates={"Charles,Susie,George,Mike,Neil"}
+		int []favMovies={"300,pokemon,pokemon,007,pokemon"}
+		for (int printFM=0;printFM<100;printFM++);
+		{
+			arr[0]="Charleses favorite movie is 300"
+			arr[1]="Susie's favorite movie is pokemon"
+			arr[2]="George's favorite movie is pokemon"
+			arr[3]="Mike's favorite movie is 007"
+			arr[4]="Neil's favorite movie is pokemon"
+			System.out.println(arr[printFM]);
+		}
+		for (int printFM2=0;printFM<100;printFM++);
+		{
+			arr[0]="Neil's favorite movie is pokemon"
+			arr[1]="Mike's favorite movie is 007"
+			arr[2]="George's favorite movie is pokemon"
+			arr[3]="Susie's favorite movie is pokemon"
+			arr[4]="Charleses favorite movie is 300"
+			System.out.println(arr[printFM2]);
+		}
+		public static int sum(int[] arr);
+		int[] arr= new int[1];
+		int sum=arr[0];
+		for(int i=1; i<arr.length;i++)
+		{
+			int a= arr[0]
+			int b= arr[1]
+		}
+		return a+b;
+	}
+}
