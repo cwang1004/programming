@@ -256,3 +256,5 @@
     [1,5,7,-10]
     sum is 3
     ```
+hey if anyone is seeing this line rn it means that it is written by susie and it is June 6 2020 1:19 pm now. This readme is forgotten now for 2 or 3 months and if anyone cares to check it out(yes and Charles) is pretty much someone who is really bored or someone who looked at github.com . Idk y i wrote dis butt if anyone sees this pls say something and tell me when it is thx bye, written by susie(incase you didn't see)
+lol
